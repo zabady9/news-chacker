@@ -1,31 +1,22 @@
 # Core FastAPI
 fastapi==0.104.1
-uvicorn[standard]==0.24.0
+uvicorn==0.24.0
 
-# Search and web scraping
+# Search
 duckduckgo-search==3.9.6
 requests==2.31.0
-httpx==0.25.2
 
 # LangChain and AI
 langchain-google-genai==1.0.10
 langchain-core==0.1.52
 langchain-huggingface==0.0.3
 
-# Machine Learning
+# Machine Learning (fixed versions)
 scikit-learn==1.3.2
 transformers==4.36.2
-torch==2.1.2+cpu
-torchvision==0.16.2+cpu
-torchaudio==2.1.2+cpu
+torch==2.1.2
 sentence-transformers==2.2.2
 
-# Data processing
+# Basic dependencies
 numpy==1.24.4
-pandas==2.0.3
-
-# API and validation
 pydantic==2.5.0
-
-# Utilities
-python-dotenv==1.0.0
